@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import soloWin from '../assets/solo-win.png';
 
 const Contact = () => {
   return (
@@ -61,7 +62,7 @@ const Contact = () => {
         </p>
         <nav class="contact">
           <img
-            src="src/assets/solo-win.png"
+            src={soloWin}
             alt="beaver image"
             class="emblem"
           />

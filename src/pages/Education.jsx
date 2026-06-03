@@ -1,3 +1,5 @@
+import fullStackIcon from '../assets/fullStackIcon.png';
+
 const Education = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Education = () => {
       <section>
         <h3>FullStack Academy</h3>
         <img
-          src="../src/assets/fullStackIcon.png"
+          src={fullStackIcon}
           alt="FullStack Academ Logo"
           class="emblem"
         />

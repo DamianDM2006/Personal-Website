@@ -1,3 +1,17 @@
+import img0573 from '../assets/IMG_0573.jpeg';
+import img0578 from '../assets/IMG_0578.jpeg';
+import img0579 from '../assets/IMG_0579.jpeg';
+import img0650 from '../assets/IMG_0650.jpeg';
+import imgag0062 from '../assets/IMAG0062.jpeg';
+import imgag0094 from '../assets/IMAG0094.jpeg';
+import imgag0095 from '../assets/IMAG0095.jpeg';
+import img1030 from '../assets/IMG_1030.jpeg';
+import img1040 from '../assets/IMG_1040.jpeg';
+import img1077 from '../assets/IMG_1077.jpeg';
+import img2760 from '../assets/IMG_2760.jpeg';
+import img3829 from '../assets/IMG_3829.jpeg';
+import img5020 from '../assets/IMG_5020.jpeg';
+
 const Accomplish = () => {
   return (
     <>
@@ -10,7 +24,7 @@ const Accomplish = () => {
             <li>
               <figure>
                 <img
-                  src="src/assets/IMG_0573.jpeg"
+                  src={img0573}
                   alt="Son's storage chests"
                   class="project"
                 />
@@ -22,7 +36,7 @@ const Accomplish = () => {
             <li>
               <figure>
                 <img
-                  src="src/assets/IMG_0579.jpeg"
+                  src={img0579}
                   alt="carving detail of Godzilla"
                   class="project"
                 />
@@ -34,7 +48,7 @@ const Accomplish = () => {
             <li>
               <figure>
                 <img
-                  src="src/assets/IMG_0578.jpeg"
+                  src={img0578}
                   alt="carving detail of airborne insignia"
                   class="project"
                 />
@@ -46,7 +60,7 @@ const Accomplish = () => {
             <li>
               <figure>
                 <img
-                  src="src/assets/IMG_0650.jpeg"
+                  src={img0650}
                   alt="grandson's play chest"
                   class="project"
                 />
@@ -57,7 +71,7 @@ const Accomplish = () => {
             </li>
             <li>
               <figure>
-                <img src="src/assets/IMAG0062.jpeg"
+                <img src={imgag0062}
                   alt="Custom bookshelf unit"
                   class="project" />
                 <figcaption>
@@ -72,7 +86,7 @@ const Accomplish = () => {
           <ul class="withImg">
             <li>
               <figure>
-                <img src="src/assets/IMAG0094.jpeg"
+                <img src={imgag0094}
                   alt="backyard view of pergola and gate"
                   class="project" />
                 <figcaption>
@@ -82,7 +96,7 @@ const Accomplish = () => {
             </li>
             <li>
               <figure>
-                <img src="src/assets/IMAG0095.jpeg"
+                <img src={imgag0095}
                   alt="front yard view of pergola and gate"
                   class="project" />
                 <figcaption>
@@ -98,7 +112,7 @@ const Accomplish = () => {
         <ul class="withImg">
           <li>
             <figure>
-              <img src="src/assets/IMG_1030.jpeg"
+              <img src={img1030}
                 alt="traffic in Bangkok"
                 class="project" />
               <figcaption>
@@ -108,7 +122,7 @@ const Accomplish = () => {
           </li>
           <li>
             <figure>
-              <img src="src/assets/IMG_1040.jpeg"
+              <img src={img1040}
                 alt="Thai royal palace"
                 class="project" />
               <figcaption>
@@ -118,7 +132,7 @@ const Accomplish = () => {
           </li>
           <li>
             <figure>
-              <img src="src/assets/IMG_1077.jpeg"
+              <img src={img1077}
                 alt="river view of Bangkok skyline"
                 class="project"
               />
@@ -134,7 +148,7 @@ const Accomplish = () => {
         <ul class="withImg">
           <li>
             <figure>
-              <img src="src/assets/IMG_2760.jpeg"
+              <img src={img2760}
                 alt="image of myself, my wife, and my mother-inlaw in front of ancient Kmere temple"
                 class="project"
               />
@@ -145,7 +159,7 @@ const Accomplish = () => {
           </li>
           <li>
             <figure>
-              <img src="src/assets/IMG_3829.jpeg"
+              <img src={img3829}
                 alt="image of myself and my wife in Singapore"
                 class="project"
               />
@@ -156,7 +170,7 @@ const Accomplish = () => {
           </li>
           <li>
             <figure>
-              <img src="src/assets/IMG_5020.jpeg"
+              <img src={img5020}
                 alt="image of myself and my wife sitting"
                 class="project"
               />
