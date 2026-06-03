@@ -1,0 +1,194 @@
+a {
+  color: rgb(170, 254, 142);
+}
+
+a:hover {
+  color: rgb(113, 160, 235);
+}
+
+a:active {
+  color: dodgerblue;
+}
+
+a:focus {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px 0 10px 0;
+}
+
+body {
+  background-color: black;
+  place-items: center;
+  font-family: sans-serif;
+  color: rgb(246, 246, 208);
+}
+
+h1 {
+  color: rgb(189, 189, 255);
+  font-family: cursive;
+}
+
+header {
+  grid-area: h;
+  place-items: center;
+  height: min-content;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(8, 8, 45);
+  margin: 2em 2em 0 0;
+  border-bottom: 2px solid gainsboro;
+}
+
+main {
+  grid-area: b;
+  margin-right: 2em;
+}
+
+.contact {
+  display: grid;
+  grid-template-areas: "j k";
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  margin: 15px 0 15px 0;
+}
+
+.contact > img {
+  height: 33px;
+  margin-right: 30px;
+  grid-area: j;
+  justify-self: right;
+}
+
+.contact > div {
+  grid-area: k;
+}
+
+.contact > a {
+  grid-area: k;
+}
+
+.emblem {
+  height: 30px;
+}
+
+.emp {
+  display: grid;
+  grid-template-areas:
+    "logo name"
+    ". body";
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: min-content;
+  align-items: center;
+  margin: 10px 0 35px 0;
+}
+
+.emp > h4 {
+  grid-area: name;
+  margin: 5px 0 5px 0;
+}
+
+.emp > img {
+  grid-area: logo;
+}
+
+.emp > p {
+  grid-area: body;
+  margin: 5px 0 5px 0;
+}
+
+.employ {
+  list-style-type: none;
+}
+
+.menu {
+  grid-area: m;
+  display: grid;
+  width: max-content;
+  position: sticky;
+  top: 0;
+  right: 2em;
+  margin-top: 2em;
+}
+
+.page {
+  display: grid;
+  padding: 0 2em 2em 2em;
+  background-image:
+    linear-gradient(rgba(2, 54, 137, 0.871), rgba(3, 38, 88, 0.882)),
+    url("src/assets/Website_background.jpg");
+  min-height: 100vh;
+  width: 90vw;
+  max-width: 960px;
+  min-width: 450px;
+  grid-template-areas:
+    "h h h h m"
+    "b b b b m"
+    "b b b b ."
+    "b b b b .";
+  grid-template-columns: 1fr 1fr 1fr 1fr 240px;
+  grid-template-rows: 153px 400px 1fr 1fr;
+}
+
+.project {
+  width: 70%;
+}
+
+.projects {
+  list-style-type: none;
+}
+
+.two {
+  display: grid;
+  grid-template-areas: "lg bd";
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.two > img {
+  grid-area: lg;
+  margin-right: 20px;
+  height: 45px;
+  justify-self: center;
+}
+
+.two > p {
+  grid-area: bd;
+}
+
+.two > a {
+  grid-area: bd;
+}
+
+.withBigImg {
+  list-style-type: none;
+}
+
+.withImg {
+  list-style-type: none;
+  display: grid;
+}
+
+#army {
+  margin: 60px 0 60px 0;
+}
+
+#boldt {
+  background-color: black;
+}
+
+#customerSvc {
+  margin: 60px 0 60px 0;
+}
+
+#damian {
+  width: 240px;
+}
+
+#express {
+  width: 99px;
+}
