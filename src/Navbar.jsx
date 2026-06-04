@@ -1,9 +1,10 @@
 import { NavLink } from "react-router";
+import IMG_3981 from "./assets/IMG_3981.jpeg";
 
 const Navbar = () => {
   return (
     <nav class="menu">
-      <img src="src/assets/IMG_3981.jpeg"
+      <img src={IMG_3981}
         alt="Photo of Damian"
         id="damian" />
       <NavLink to="/home">Home/Summary</NavLink>
