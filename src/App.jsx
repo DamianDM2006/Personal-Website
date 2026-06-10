@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import { useTranslation, Trans } from "react-i18next";
+// import { useTranslation, Trans } from "react-i18next";
 
 import i18n from "../i18n.js";
 
@@ -12,7 +12,7 @@ import Accomplish from "./pages/Accomplish.jsx";
 import Contact from "./pages/Contact.jsx";
 
 const App = () => {
-  const { t, i18n } = useTranslation();
+  // const { t, i18n } = useTranslation();
 
   return (
     <Routes>

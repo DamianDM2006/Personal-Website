@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
-// import { useTranslation, Trans } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
+import { Suspense } from "react";
 
 import Navbar from "./Navbar.jsx";
 import i18n from "../i18n.js";
@@ -10,7 +11,7 @@ const lngs = {
 };
 
 const Layout = () => {
-  // const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <div className="page">
       <header>
@@ -26,7 +27,7 @@ const Layout = () => {
             </button>
           ))}
         </div>
-        <h3>Full Stack Web Development | Software Engineer</h3>
+        <h3>{t("header")}</h3>
       </header>
       <Navbar />
       <main>
