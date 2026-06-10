@@ -3,10 +3,8 @@ import IMG_3981 from "./assets/IMG_3981.jpeg";
 
 const Navbar = () => {
   return (
-    <nav class="menu">
-      <img src={IMG_3981}
-        alt="Photo of Damian"
-        id="damian" />
+    <nav className="menu">
+      <img src={IMG_3981} alt="Photo of Damian" id="damian" />
       <NavLink to="/home">Home/Summary</NavLink>
       <NavLink to="/techSkills">Technical Skills</NavLink>
       <NavLink to="/experience">Experience</NavLink>

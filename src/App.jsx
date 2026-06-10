@@ -1,4 +1,7 @@
 import { Routes, Route } from "react-router";
+import { useTranslation, Trans } from "react-i18next";
+
+import i18n from "../i18n.js";
 
 import Layout from "./Layout.jsx";
 import Home from "./pages/Home.jsx";
@@ -8,7 +11,14 @@ import Education from "./pages/Education.jsx";
 import Accomplish from "./pages/Accomplish.jsx";
 import Contact from "./pages/Contact.jsx";
 
+const lngs = {
+  en: { nativeName: "English" },
+  th: { nativeName: "ไทย" },
+};
+
 const App = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
