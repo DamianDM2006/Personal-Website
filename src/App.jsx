@@ -11,11 +11,6 @@ import Education from "./pages/Education.jsx";
 import Accomplish from "./pages/Accomplish.jsx";
 import Contact from "./pages/Contact.jsx";
 
-const lngs = {
-  en: { nativeName: "English" },
-  th: { nativeName: "ไทย" },
-};
-
 const App = () => {
   const { t, i18n } = useTranslation();
 
