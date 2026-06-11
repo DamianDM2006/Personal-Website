@@ -62,17 +62,15 @@ const Home = () => {
       </section>
       <section>
         <h2>
-          <Trans i18nKey="home.mindset.tag">
-            Professional Mindset
-          </Trans>
+          <Trans i18nKey="home.mindset.tag">Professional Mindset</Trans>
         </h2>
         <p>
           <Trans i18nKey="home.mindset.discription.part1">
             I recently graduated from an immersive full stack cohort where I
-            gained the basic tools to start my journey as a software developer. I
-            have come to realize, however, that the knowledge and skills that I
-            acquired through course work just scratches the surface of what tools
-            and techniques are required to become a master of this craft.
+            gained the basic tools to start my journey as a software developer.
+            I have come to realize, however, that the knowledge and skills that
+            I acquired through course work just scratches the surface of what
+            tools and techniques are required to become a master of this craft.
           </Trans>
         </p>
         <p>
@@ -82,19 +80,23 @@ const Home = () => {
             carpenter, I was always learning. Sometimes I learned better
             techniques. Sometimes I was required to learn and adapt to changing
             technologies.
-            <strong>Always</strong> I used my knowledge to creatively build unique
-            projects.
+            <strong>Always</strong> I used my knowledge to creatively build
+            unique projects.
           </Trans>
         </p>
         <p>
-          Yes, I take pride in being able to creatively leverage my skill sets
-          in a productive manner. I have a very strong work ethic. I like to
-          learn. I am not above doing the grunt work. As I see it, doing the
-          mundane is also an opportunity to hone acquired skills.
+          <Trans i18nKey="home.mindset.discription.part3">
+            Yes, I take pride in being able to creatively leverage my skill sets
+            in a productive manner. I have a very strong work ethic. I like to
+            learn. I am not above doing the grunt work. As I see it, doing the
+            mundane is also an opportunity to hone acquired skills.
+          </Trans>
         </p>
         <p>
-          I am sincerely looking forward to have an opportunity to develop and
-          further my skills by contributing to meaningful projects.
+          <Trans i18nKey="home.mindset.discription.part4">
+            I am sincerely looking forward to have an opportunity to develop and
+            further my skills by contributing to meaningful projects.
+          </Trans>
         </p>
       </section>
     </>
