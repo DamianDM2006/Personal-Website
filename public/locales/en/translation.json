@@ -33,5 +33,32 @@
         "part4": "I am sincerely looking forward to have an opportunity to develop and further my skills by contributing to meaningful projects."
       }
     }
+  },
+
+  "skill": {
+    "tag": "Technical & Other Skill",
+    "frontEnd": "Front End Development",
+    "dom": {
+      "part1": "Responsive Design",
+      "part2": "DOM (Document Object Model) Manipulation"
+    },
+    "backEnd": "Back End Development",
+    "joins": "Joins, Queries, Error Handling",
+    "tools": "Tools & Others",
+    "obj": "Object/Array Manipulation",
+    "testDriven": {
+      "test_driven_development": "Test Driven Development",
+      "familiar_with": "familiar with"
+    },
+    "soft_skill": {
+      "tag": "Soft Skills",
+      "creative_problem_solving": "Creative Problem Solving",
+      "attention_detail": "Attention to Detail",
+      "project_management": "Product Management",
+      "well_organized": "Well Organized",
+      "team_collaboration": "Team Collaboration",
+      "quick_learn": "Quick Learner",
+      "high_integrity": "High Integrity"
+    }
   }
 }
