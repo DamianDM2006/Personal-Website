@@ -143,14 +143,39 @@ const TechSkills = () => {
         </ul>
       </section>
       <section>
-        <h3><Trans i18nKey="skill.soft_skill.tag">Soft Skills</Trans></h3>
+        <h3>
+          <Trans i18nKey="skill.soft_skill.tag">Soft Skills</Trans>
+        </h3>
         <ul>
-          <li><Trans i18nKey="skill.soft_skill.creative_problem_solving">Creative Problem Solving</Trans></li>
-          <li><Trans i18nKey="skill.soft_skill.attention_detail">Attention to Detail</Trans></li>
-          <li><Trans i18nKey="skill.soft_skill.project_management">Project Management</Trans> (<Trans i18nKey="well_organized">Well Organized</Trans>)</li>
-          <li><Trans i18nKey="skill.soft_skill.team_collaboration">Team Collaboration</Trans></li>
-          <li><Trans i18nKey="skill.soft_skill.quick_learn">Quick Learner</Trans></li>
-          <li><Trans i18nKey="skill.soft_skill.high_integrity">High Integrity</Trans></li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.creative_problem_solving">
+              Creative Problem Solving
+            </Trans>
+          </li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.attention_detail">
+              Attention to Detail
+            </Trans>
+          </li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.project_management">
+              Project Management
+            </Trans>{" "}
+            (<Trans i18nKey="well_organized">Well Organized</Trans>)
+          </li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.team_collaboration">
+              Team Collaboration
+            </Trans>
+          </li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.quick_learn">Quick Learner</Trans>
+          </li>
+          <li>
+            <Trans i18nKey="skill.soft_skill.high_integrity">
+              High Integrity
+            </Trans>
+          </li>
         </ul>
       </section>
     </>
