@@ -1,5 +1,4 @@
 import { useTranslation, Trans } from "react-i18next";
-import { Suspense } from "react";
 import i18n from "../../i18n.js";
 
 const Home = () => {

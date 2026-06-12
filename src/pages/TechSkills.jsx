@@ -14,8 +14,8 @@ const TechSkills = () => {
         <h3>
           <Trans i18nKey="skill.frontEnd">Front End Development</Trans>
         </h3>
-        <ul class="withImg">
-          <li class="two">
+        <ul className="withImg">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
               alt="html5 emblem"
@@ -24,7 +24,7 @@ const TechSkills = () => {
               HTML<sub>5</sub>
             </div>
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
               alt="css3 emblem"
@@ -33,19 +33,19 @@ const TechSkills = () => {
               CSS<sub>3</sub> (including Flexbox, Grid, Custom Properties)
             </div>
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Deepin_Icon_Theme_%E2%80%93_text-x-javascript_%286%29.svg"
               alt="JavaScript emblem"
-              class="emblem"
+              className="emblem"
             />
             JavaScript ES6+
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
               alt="React emblem"
-              class="emblem"
+              className="emblem"
             />
             React/.jsx
           </li>
@@ -68,8 +68,8 @@ const TechSkills = () => {
         <h3>
           <Trans i18nKey="skill.backEnd">Back End Development</Trans>
         </h3>
-        <ul class="withImg">
-          <li class="two">
+        <ul className="withImg">
+          <li className="two">
             <img
               style={{ background: "white" }}
               src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
@@ -77,7 +77,7 @@ const TechSkills = () => {
             />
             Node.js
           </li>
-          <li class="two">
+          <li className="two">
             <img
               style={{ background: "white" }}
               src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
@@ -86,7 +86,7 @@ const TechSkills = () => {
             />
             Express.js
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/d/d7/SQL_Image.svg"
               alt="SQL emblem"
@@ -94,7 +94,7 @@ const TechSkills = () => {
             SQL (
             <Trans i18nKey="skill.joins">Joins, Queries, Error Handling</Trans>)
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
               alt="socket.io emblem"
@@ -107,8 +107,8 @@ const TechSkills = () => {
         <h3>
           <Trans i18nKey="skill.tools">Tools & Others</Trans>
         </h3>
-        <ul class="withImg">
-          <li class="two">
+        <ul className="withImg">
+          <li className="two">
             <img
               style={{ background: "white" }}
               src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
@@ -116,7 +116,7 @@ const TechSkills = () => {
             />
             GitHub
           </li>
-          <li class="two">
+          <li className="two">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
               alt="VS Code emblem"
@@ -161,7 +161,7 @@ const TechSkills = () => {
             <Trans i18nKey="skill.soft_skill.project_management">
               Project Management
             </Trans>{" "}
-            (<Trans i18nKey="well_organized">Well Organized</Trans>)
+            (<Trans i18nKey="skill.soft_skill.well_organized">Well Organized</Trans>)
           </li>
           <li>
             <Trans i18nKey="skill.soft_skill.team_collaboration">

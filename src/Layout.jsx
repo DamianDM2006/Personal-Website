@@ -1,6 +1,5 @@
 import { Outlet } from "react-router";
 import { useTranslation, Trans } from "react-i18next";
-import { Suspense } from "react";
 
 import Navbar from "./Navbar.jsx";
 import i18n from "../i18n.js";
@@ -12,6 +11,7 @@ const lngs = {
 
 const Layout = () => {
   const { t, i18n } = useTranslation();
+
   return (
     <div className="page">
       <header>
@@ -31,7 +31,7 @@ const Layout = () => {
       </header>
       <Navbar />
       <main>
-        <Outlet />
+          <Outlet />
       </main>
     </div>
   );
