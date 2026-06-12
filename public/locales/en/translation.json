@@ -124,5 +124,31 @@
       "electrical": "Electrical Engineering as primary focus",
       "computer": "Computer Science Coursework"
     }
+  },
+
+    "accomplishments": {
+    "tag": "Personal Interests",
+    "woodworking": {
+      "tag": "Woodworking and Craftsmanship",
+      "finish_carpentry": "Finish Carpentry",
+      "storage_chests": "Handmade Blanket Storage Chests",
+      "godzilla_detail": "Hand Carved Storage Chest Lid Detail 'Godzilla'",
+      "airborne_detail": "Hand Carved Storage Chest Lid Detail 'Airborne Wings'",
+      "child_chest": "Hand Made Child's Toy Storage Chest",
+      "bookshelf": "Custom Built Bookshelf Unit",
+      "rough_carpentry": "Rough Carpentry",
+      "gate_back_view": "Custom Fence with Pergola at gate: Backyard View",
+      "fence_gate": "Custom Fence and Gate"
+    },
+    "travel": {
+      "tag": "Travel",
+      "bkk_traffic": "Moderate Traffic in Bangkok, Thailand",
+      "bkk_palace": "Thailand's Royal Palace",
+      "bkk_river_view": "River view of the Bangkok, Thailand Skyline",
+      "connections": "Connections in Southeast Asia",
+      "kmere_temple": "Family at an Ancient Kmere Temple along the Thailand Cambodia Border",
+      "singapore": "In Singapore",
+      "village_party": "My wife and I at a village party in Thailand"
+    }
   }
 }
