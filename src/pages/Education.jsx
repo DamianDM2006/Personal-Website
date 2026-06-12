@@ -1,37 +1,61 @@
-import fullStackIcon from '../assets/fullStackIcon.png';
+import { useTranslation, Trans } from "react-i18next";
+import i18n from "../../i18n.js";
+
+import fullStackIcon from "../assets/fullStackIcon.png";
 
 const Education = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
-      <h2>Education</h2>
+      <h2>
+        <Trans i18nKey="education.tag">Education</Trans>
+      </h2>
       <section>
-        <h3>FullStack Academy</h3>
+        <h3>
+          <Trans i18nKey="education.fullstack.tag">FullStack Academy</Trans>
+        </h3>
         <img
           src={fullStackIcon}
-          alt="FullStack Academ Logo"
-          class="emblem"
+          alt="FullStack Academy Logo"
+          className="emblem"
         />
-        <p>Immersive Software Engineering | October 2025 - March 2026</p>
+        <p>
+          <span>
+            <Trans i18nKey="education.fullstack.header">Immersive Software Engineering</Trans>
+          </span>{" "}
+          | <span>October 2025 - March 2026</span>
+        </p>
         <ul>
-          <li>Graduated March 25, 2026 with cumulative grade of 97.7%</li>
-          <li>Intensive training in full-stack JavaScript Web development</li>
           <li>
-            Focused on React, Node.js/Express, SQL databases and modern web
-            development best practices
+            <Trans i18nKey="education.fullstack.graduated">
+              Graduated March 25, 2026 with cumulative grade of 97.7%
+            </Trans>
+          </li>
+          <li>
+            <Trans i18nKey="education.fullstack.intensive">
+              Intensive training in full-stack JavaScript Web development
+            </Trans>
+          </li>
+          <li>
+            <Trans i18nKey="education.fullstack.focused">
+              Focused on React, Node.js/Express, SQL databases and modern web
+              development best practices
+            </Trans>
           </li>
         </ul>
       </section>
       <section>
-        <h3>University of Colorado at Boulder</h3>
+        <h3><Trans i18nKey="education.cu.tag">University of Colorado at Boulder</Trans></h3>
         <img
           src="data:image/png;base64,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"
           alt="CU logo"
-          class="emblem"
+          className="emblem"
         />
-        <p>Attended Spring 1988 - Spring 1990</p>
+        <p><Trans i18nKey="education.cu.header">Attended Spring 1988 - Spring 1990</Trans></p>
         <ul>
-          <li>Electrical Engineering as primary focus</li>
-          <li>Computer Science Coursework</li>
+          <li><Trans i18nKey="education.cu.electrical">Electrical Engineering as primary focus</Trans></li>
+          <li><Trans i18nKey="education.cu.computer">Computer Science Coursework</Trans></li>
         </ul>
       </section>
     </>

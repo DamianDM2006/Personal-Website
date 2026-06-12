@@ -107,5 +107,22 @@
       "cu_boulder": "University of Colorado at Boulder: Center for Academic Success",
       "sw_airlines": "Southwest Airlines at Denver International Airport"
     }
+  },
+
+  "education": {
+    "tag": "Education",
+    "fullstack": {
+      "tag": "FullStack Academy",
+      "header": "Immersive Software Engineering",
+      "graduated": "Graduated March 25, 2026 with cumulative grade of 97.7%",
+      "intensive": "Intensive training in full-stack JavaScript Web development",
+      "focused": "Focused on React, Node.js/Express, SQL databases and modern web development best practices"
+    },
+    "cu": {
+      "tag": "University of Colorado at Boulder",
+      "header": "Attended Spring 1988 - Spring 1990",
+      "electrical": "Electrical Engineering as primary focus",
+      "computer": "Computer Science Coursework"
+    }
   }
 }
