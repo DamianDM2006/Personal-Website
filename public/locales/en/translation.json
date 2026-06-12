@@ -60,5 +60,52 @@
       "quick_learn": "Quick Learner",
       "high_integrity": "High Integrity"
     }
+  },
+
+  "experience": {
+    "tag": "Experience",
+    "constr_mngmt": "Construction Management",
+    "journeyman_trained": {
+      "tag": "Journeyman Carpenter Trained Construction Manager (Rose up through the ranks)",
+      "worked_various": "Worked Various Commercial Projects based out of Denver, Colorado including Restricted Access State and Federal Government Facilities. Dates: 1998-2024",
+      "managed_complex": "Managed complex projects requiring precise planning, timeline adherence, and problem solving under constraints",
+      "collaborated": "Collaborated with teams to execute detailed blueprints, translating to code structure and architecture",
+      "applied_attentiion": "Applied attention to detail and debugging mindset to troubleshoot on-site issues",
+      "proficient_in": "Proficient in construction industry software such as Blue Beam, Procor & AutoCad"
+    },
+    "some_employers": "Some Employers I have worked with",
+
+    "blue_cross_shield": {
+      "tag": "Blue Cross & Blue Sheild of Colorado",
+      "led_a_ded": "Led a dedicated team providing urgent medical care and support to out of state/out of network HMO members",
+      "coordinated": "Coordinated treatment authorizations and claim processing between visiting members and local medical providers"
+    },
+
+    "army": {
+      "tag": "U.S. Army",
+      "responsable": "Responsible for the Guidance, Training and Professional Development of all members of an Infantry Squad",
+      "deployed": "Deployed in support of Operation Desert Shield/Storm",
+      "achievent_medal": "Awarded Army Achievement Medal with 1 oak leaf cluster",
+      "good_condct_medal": "Awarded Army Good Conduct Medal",
+      "airborne": "Airborne"
+    },
+
+    "job_descript": {
+      "journeyman": "Journeyman Carpenter",
+      "lead_carpenter": "Lead Carpenter",
+      "foreman": "Carpenter Foreman",
+      "apprentice": "Apprentice Carpenter",
+      "assist_sup": "Assistant Superintendent",
+      "superinten": "Project Superintendent",
+      "custome_svc": "Lead Customer Service Representative"
+    },
+
+    "projects": {
+      "childrens": "Children's Hospital Colorado, Auroa Campus",
+      "du_engineering": "University of Denver Engineering Building",
+      "lake_house": "The Lake House, Denver Colorado",
+      "cu_boulder": "University of Colorado at Boulder: Center for Academic Success",
+      "sw_airlines": "Southwest Airlines at Denver International Airport"
+    }
   }
 }

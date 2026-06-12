@@ -60,5 +60,52 @@
       "quick_learn": "เรียนรู้เร็ว",
       "high_integrity": "ซื่อสัตย์มาก"
     }
+  },
+
+  "experience": {
+    "tag": "ประสบการณ์",
+    "constr_mngmt": "การบริหารงานก่อสร้าง",
+    "journeyman_trained": {
+      "tag": "",
+      "worked_various": "",
+      "managed_complex": "",
+      "collaborated": "",
+      "applied_attentiion": "",
+      "proficient_in": ""
+    },
+
+    "blue_cross_shiel": {
+      "tag": "",
+      "led_a_ded": "",
+      "coordinated": ""
+    },
+
+    "army": {
+      "tag": "U.S. Army",
+      "responsable": "",
+      "deployed": "",
+      "achievent_medal": "",
+      "good_condct_medal": "",
+      "airborne": ""
+    },
+
+    "job_descript": {
+      "journeyman": "Journeyman Carpenter",
+      "lead_carpenter": "Lead Carpenter",
+      "foreman": "Carpenter Foreman",
+      "apprentice": "Apprentice Carpenter",
+      "assist_sup": "Assistant Superintendent",
+      "superinten": "Project Superintendent",
+      "custome_svc": "Lead Customer Service Representative"
+    },
+
+    "projects": {
+      "childrens": "โรงพยาบาลเด็กโคโลราโด วิทยาเขตออโรรา",
+      "du_engineering": "",
+      "lake_house": "",
+      "cu_boulder": "",
+      "sw_airlines": ""
+    }
   }
+
 }
