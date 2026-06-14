@@ -126,7 +126,7 @@
     }
   },
 
-    "accomplishments": {
+  "accomplishments": {
     "tag": "Personal Interests",
     "woodworking": {
       "tag": "Woodworking and Craftsmanship",
@@ -150,5 +150,16 @@
       "singapore": "In Singapore",
       "village_party": "My wife and I at a village party in Thailand"
     }
+  },
+
+  "contact": {
+    "tag": "Contact Information and Other Links",
+    "location": {
+      "tag": "Location",
+      "city_state": "Denver Colorado 80229",
+      "country": "United States of America"
+    },
+    "capstone": "Capstone Project: Riddles of The DAAM",
+    "discription": "A game of riddles to be played as a solo player or being matched with another apponent"
   }
 }
