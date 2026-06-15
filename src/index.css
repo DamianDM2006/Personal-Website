@@ -1,22 +1,9 @@
-.nav-link {
-  color: rgb(170, 254, 142);
-}
-
 a:hover {
   color: rgb(113, 160, 235);
 }
 
 a:active {
   color: dodgerblue;
-}
-
-.nav-link.active {
-  display: flex;
-  justify-content: center;
-  font-size: larger;
-  border-style: solid;
-  border-width: 2px;
-  margin: 10px 0 10px 0;
 }
 
 body {
@@ -29,7 +16,7 @@ body {
 h1 {
   color: rgb(189, 189, 255);
   font-family: cursive;
-  margin-block-start: 0.10em;
+  margin-block-start: 0.1em;
   margin-block-end: 0.25em;
 }
 
@@ -120,6 +107,19 @@ main {
   top: 0;
   right: 2em;
   margin-top: 2em;
+}
+
+.nav-link {
+  color: rgb(170, 254, 142);
+}
+
+.nav-link.active {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px 0 10px 0;
 }
 
 .page {

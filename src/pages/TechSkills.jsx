@@ -1,6 +1,6 @@
 import { useTranslation, Trans } from "react-i18next";
 import { Suspense } from "react";
-import i18n from "../../i18n.js";
+import i18next from "../assets/i18next.png";
 
 const TechSkills = () => {
   const { t, i18n } = useTranslation();
@@ -101,6 +101,10 @@ const TechSkills = () => {
             />
             Socket.io
           </li>
+          <li className="two">
+            <img src={i18next} alt="i18next Logo" />
+            i18next
+          </li>
         </ul>
       </section>
       <section>
@@ -161,7 +165,11 @@ const TechSkills = () => {
             <Trans i18nKey="skill.soft_skill.project_management">
               Project Management
             </Trans>{" "}
-            (<Trans i18nKey="skill.soft_skill.well_organized">Well Organized</Trans>)
+            (
+            <Trans i18nKey="skill.soft_skill.well_organized">
+              Well Organized
+            </Trans>
+            )
           </li>
           <li>
             <Trans i18nKey="skill.soft_skill.team_collaboration">
