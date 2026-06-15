@@ -1,16 +1,41 @@
 import { Outlet } from "react-router";
+import { useTranslation, Trans } from "react-i18next";
+
 import Navbar from "./Navbar.jsx";
+import i18n from "../i18n.js";
+
+const lngs = {
+  en: { nativeName: "English" },
+  th: { nativeName: "ไทย" },
+};
 
 const Layout = () => {
+  const { t, i18n } = useTranslation();
+
   return (
-    <div class="page">
+    <div className="page">
       <header>
         <h1>Damian D. Martinez</h1>
-        <h3>Full Stack Web Development | Software Engineer</h3>
+        <div>
+          {Object.keys(lngs).map((lng) => (
+            <button
+              key={lng}
+              style={
+                { backgroundColor: i18n.resolvedLanguage === lng ? "grey" : "" }
+              }
+              className="lang"
+              type="submit"
+              onClick={() => i18n.changeLanguage(lng)}
+            >
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
+        <h3>{t("header")}</h3>
       </header>
       <Navbar />
       <main>
-        <Outlet />
+          <Outlet />
       </main>
     </div>
   );

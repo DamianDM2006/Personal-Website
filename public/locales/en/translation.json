@@ -1,0 +1,165 @@
+{
+  "header": "Full Stack Development | Software Engineer",
+  "button": {
+    "home": "Home/Summary",
+    "skills": "Technical Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "interests": "Personal Interests",
+    "contactInfo": "Contact Information"
+  },
+
+  "home": {
+    "tag": "Professional Summary",
+    "discription": "Motivated front-end and back-end developer transitioning from a strong background in construction management and commercial carpentry into software development. Passionate about building responsive, user-friendly web applications using modern JavaScript technologies. Skilled in React, Node.js/Express, SQL databases, PostgreSQL, CSS, Grid, and full-stack development practices. Eager to apply problem-solving skills from hands-on project management to deliver clean, efficient code in a collaborative teamenvironment.",
+    "philosophy": {
+      "tag": "My Personal Philosphy",
+      "threeRules": {
+        "tag": "Three Rules I Live By:",
+        "discription": "I strive to adbide by and live theses rules everyday. These rules are mutually <1>INCLUSIVE</1>. I feel it would be damaging to my intergrity to exclude one rule for the fulfillment of another.",
+        "rules": {
+          "rule1": "Have Fun",
+          "rule2": "Respect Other People",
+          "rule3": "Endeavor to Learn Something New"
+        }
+      }
+    },
+    "mindset": {
+      "tag": "Professional Mindset",
+      "discription": {
+        "part1": "I recently graduated from an immersive full stack cohort where I gained the basic tools to start my journey as a software developer. I have come to realize, however, that the knowledge and skills that I acquired through course work just scratches the surface of what tools and techniques are required to become a master of this craft.",
+        "part2": "I am approaching this transition as I approached my development as a highly skilled carpenter. As, what some would call me now, a master carpenter, I was always learning. Sometimes I learned better techniques. Sometimes I was required to learn and adapt to changing technologies.Always I used my knowledge to creatively build unique projects.",
+        "part3": "Yes, I take pride in being able to creatively leverage my skill sets in a productive manner. I have a very strong work ethic. I like to learn. I am not above doing the grunt work. As I see it, doing the mundane is also an opportunity to hone acquired skills.",
+        "part4": "I am sincerely looking forward to have an opportunity to develop and further my skills by contributing to meaningful projects."
+      }
+    }
+  },
+
+  "skill": {
+    "tag": "Technical & Other Skill",
+    "frontEnd": "Front End Development",
+    "dom": {
+      "part1": "Responsive Design",
+      "part2": "DOM (Document Object Model) Manipulation"
+    },
+    "backEnd": "Back End Development",
+    "joins": "Joins, Queries, Error Handling",
+    "tools": "Tools & Others",
+    "obj": "Object/Array Manipulation",
+    "testDriven": {
+      "test_driven_development": "Test Driven Development",
+      "familiar_with": "familiar with"
+    },
+    "soft_skill": {
+      "tag": "Soft Skills",
+      "creative_problem_solving": "Creative Problem Solving",
+      "attention_detail": "Attention to Detail",
+      "project_management": "Product Management",
+      "well_organized": "Well Organized",
+      "team_collaboration": "Team Collaboration",
+      "quick_learn": "Quick Learner",
+      "high_integrity": "High Integrity"
+    }
+  },
+
+  "experience": {
+    "tag": "Experience",
+    "constr_mngmt": "Construction Management",
+    "journeyman_trained": {
+      "tag": "Journeyman Carpenter Trained Construction Manager (Rose up through the ranks)",
+      "worked_various": "Worked Various Commercial Projects based out of Denver, Colorado including Restricted Access State and Federal Government Facilities. Dates: 1998-2024",
+      "managed_complex": "Managed complex projects requiring precise planning, timeline adherence, and problem solving under constraints",
+      "collaborated": "Collaborated with teams to execute detailed blueprints, translating to code structure and architecture",
+      "applied_attentiion": "Applied attention to detail and debugging mindset to troubleshoot on-site issues",
+      "proficient_in": "Proficient in construction industry software such as Blue Beam, Procor & AutoCad"
+    },
+    "some_employers": "Some Employers I have worked with",
+
+    "blue_cross_shield": {
+      "tag": "Blue Cross & Blue Sheild of Colorado",
+      "led_a_ded": "Led a dedicated team providing urgent medical care and support to out of state/out of network HMO members",
+      "coordinated": "Coordinated treatment authorizations and claim processing between visiting members and local medical providers"
+    },
+
+    "army": {
+      "tag": "U.S. Army",
+      "responsable": "Responsible for the Guidance, Training and Professional Development of all members of an Infantry Squad",
+      "deployed": "Deployed in support of Operation Desert Shield/Storm",
+      "achievent_medal": "Awarded Army Achievement Medal with 1 oak leaf cluster",
+      "good_condct_medal": "Awarded Army Good Conduct Medal",
+      "airborne": "Airborne"
+    },
+
+    "job_descript": {
+      "journeyman": "Journeyman Carpenter",
+      "lead_carpenter": "Lead Carpenter",
+      "foreman": "Carpenter Foreman",
+      "apprentice": "Apprentice Carpenter",
+      "assist_sup": "Assistant Superintendent",
+      "superinten": "Project Superintendent",
+      "custome_svc": "Lead Customer Service Representative"
+    },
+
+    "projects": {
+      "childrens": "Children's Hospital Colorado, Aurora Campus",
+      "du_engineering": "University of Denver Engineering Building",
+      "lake_house": "The Lake House, Denver Colorado",
+      "cu_boulder": "University of Colorado at Boulder: Center for Academic Success",
+      "sw_airlines": "Southwest Airlines at Denver International Airport"
+    }
+  },
+
+  "education": {
+    "tag": "Education",
+    "fullstack": {
+      "tag": "FullStack Academy",
+      "header": "Immersive Software Engineering",
+      "graduated": "Graduated March 25, 2026 with cumulative grade of 97.7%",
+      "intensive": "Intensive training in full-stack JavaScript Web development",
+      "focused": "Focused on React, Node.js/Express, SQL databases and modern web development best practices"
+    },
+    "cu": {
+      "tag": "University of Colorado at Boulder",
+      "header": "Attended Spring 1988 - Spring 1990",
+      "electrical": "Electrical Engineering as primary focus",
+      "computer": "Computer Science Coursework"
+    }
+  },
+
+  "accomplishments": {
+    "tag": "Personal Interests",
+    "woodworking": {
+      "tag": "Woodworking and Craftsmanship",
+      "finish_carpentry": "Finish Carpentry",
+      "storage_chests": "Handmade Blanket Storage Chests",
+      "godzilla_detail": "Hand Carved Storage Chest Lid Detail 'Godzilla'",
+      "airborne_detail": "Hand Carved Storage Chest Lid Detail 'Airborne Wings'",
+      "child_chest": "Hand Made Child's Toy Storage Chest",
+      "bookshelf": "Custom Built Bookshelf Unit",
+      "rough_carpentry": "Rough Carpentry",
+      "gate_back_view": "Custom Fence with Pergola at gate: Backyard View",
+      "fence_gate": "Custom Fence and Gate"
+    },
+    "travel": {
+      "tag": "Travel",
+      "bkk_traffic": "Moderate Traffic in Bangkok, Thailand",
+      "bkk_palace": "Thailand's Royal Palace",
+      "bkk_river_view": "River view of the Bangkok, Thailand Skyline",
+      "connections": "Connections in Southeast Asia",
+      "kmere_temple": "Family at an Ancient Kmere Temple along the Thailand Cambodia Border",
+      "singapore": "In Singapore",
+      "village_party": "My wife and I at a village party in Thailand"
+    }
+  },
+
+  "contact": {
+    "tag": "Contact Information and Other Links",
+    "location": {
+      "tag": "Location",
+      "city_state": "Denver Colorado 80229",
+      "country": "United States of America"
+    },
+    "capstone": "Capstone Project: Riddles of The DAAM",
+    "discription": "A game of riddles to be played as a solo player or being matched with another apponent"
+  }
+}
