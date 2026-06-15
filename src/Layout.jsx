@@ -20,6 +20,10 @@ const Layout = () => {
           {Object.keys(lngs).map((lng) => (
             <button
               key={lng}
+              style={
+                { backgroundColor: i18n.resolvedLanguage === lng ? "grey" : "" }
+              }
+              className="lang"
               type="submit"
               onClick={() => i18n.changeLanguage(lng)}
             >

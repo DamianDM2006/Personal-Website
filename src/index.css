@@ -6,6 +6,10 @@ a:active {
   color: dodgerblue;
 }
 
+a {
+  color: rgb(177, 216, 255);
+}
+
 body {
   background-color: black;
   place-items: center;
@@ -97,6 +101,12 @@ main {
 
 .employ {
   list-style-type: none;
+}
+
+.lang {
+  height: 30px;
+  border-radius: 20%;
+  margin: 0 5px 0 5px;
 }
 
 .menu {
