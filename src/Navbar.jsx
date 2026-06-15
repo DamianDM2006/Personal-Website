@@ -10,12 +10,54 @@ const Navbar = () => {
   return (
     <nav className="menu">
       <img src={IMG_3981} alt="Photo of Damian" id="damian" />
-      <NavLink to="/home">{t("button.home")}</NavLink>
-      <NavLink to="/techSkills">{t("button.skills")}</NavLink>
-      <NavLink to="/experience">{t("button.experience")}</NavLink>
-      <NavLink to="/education">{t("button.education")}</NavLink>
-      <NavLink to="/accomplish">{t("button.interests")}</NavLink>
-      <NavLink to="/contact">{t("button.contactInfo")}</NavLink>
+      <NavLink
+        to="/home"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.home")}
+      </NavLink>
+      <NavLink
+        to="/techSkills"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.skills")}
+      </NavLink>
+      <NavLink
+        to="/experience"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.experience")}
+      </NavLink>
+      <NavLink
+        to="/education"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.education")}
+      </NavLink>
+      <NavLink
+        to="/accomplish"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.interests")}
+      </NavLink>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        {t("button.contactInfo")}
+      </NavLink>
     </nav>
   );
 };

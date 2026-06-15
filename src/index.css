@@ -1,4 +1,4 @@
-a {
+.nav-link {
   color: rgb(170, 254, 142);
 }
 
@@ -10,7 +10,7 @@ a:active {
   color: dodgerblue;
 }
 
-a:focus {
+.nav-link.active {
   display: flex;
   justify-content: center;
   font-size: larger;
